@@ -1,0 +1,25 @@
+{
+  "name": "node-friend-finder",
+  "version": "0.0.1",
+  "description": "node friend finder",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumari-priya/node-friend-finder.git"
+  },
+  "author": "Kumari Priya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumari-priya/node-mysql-store/issues"
+  },
+  "homepage": "https://github.com/kumari-priya/node-friend-finder#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
