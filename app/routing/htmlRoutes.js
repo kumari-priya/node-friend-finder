@@ -1,5 +1,7 @@
 const router = require('express').Router();
-const start = { root: __dirname + "/.."};
+const start = {
+  root: __dirname + "/.."
+};
 
 router.get("/", (req, res) => {
   res.sendFile("/public/" + "home.html", start);
